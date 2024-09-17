@@ -7,7 +7,7 @@ export function Hero() {
     <section id="hero" className="relative overflow-hidden h-[50vh] flex items-center">
       <div className="absolute inset-0">
         <Image
-          src={Herobg}
+          src={Herobg.src}
           alt="Hero background"
           fill
           className="object-cover"

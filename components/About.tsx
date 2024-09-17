@@ -8,7 +8,7 @@ export function About() {
         <div className="grid gap-10 md:grid-cols-2 items-center">
           <div className="flex justify-center">
             <Image
-              src={aboutme}
+              src={aboutme.src}
               alt="Developer portrait"
               width={400}
               height={400}

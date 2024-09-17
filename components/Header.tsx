@@ -20,7 +20,7 @@ export function Header() {
     const handleScroll = () => {
       const currentScrollY = window.scrollY
       const maxScroll = document.documentElement.scrollHeight - window.innerHeight
-      const newOpacity = Math.min(0.9, 0.1 + (currentScrollY / maxScroll) * 0.8)
+      const newOpacity = Math.min(0.9, 0.1 + (currentScrollY / maxScroll) * 3)
       setOpacity(newOpacity)
     }
 
