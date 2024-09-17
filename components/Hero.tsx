@@ -1,6 +1,6 @@
 import Image from "next/image"
-import { Button } from "@/components/ui/button"
-import Herobg from '@/assets/Herobg.jpg'
+import { Button } from "./ui/button"
+import Herobg from '../assets/Herobg.jpg'
 
 export function Hero() {
   return (

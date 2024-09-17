@@ -1,9 +1,9 @@
 'use client';
 import { useState } from 'react'
-import { Button } from "@/components/ui/button"
+import { Button } from "./ui/button"
 import { ChevronDown, ChevronUp } from 'lucide-react'
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { getBlogPosts } from '@/lib/blogs'
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card"
+import { getBlogPosts } from '../lib/blogs'
 
 export function Blog() {
   const [isExpanded, setIsExpanded] = useState(false)
