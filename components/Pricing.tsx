@@ -13,7 +13,7 @@ export function Pricing() {
               <CardDescription>For small projects</CardDescription>
             </CardHeader>
             <CardContent>
-              <p className="text-3xl font-bold mb-4">$999</p>
+              <p className="text-3xl font-bold mb-4">$20</p>
               <ul className="space-y-2">
                 <li>5-page website</li>
                 <li>Responsive design</li>
@@ -30,7 +30,7 @@ export function Pricing() {
               <CardDescription>For medium-sized projects</CardDescription>
             </CardHeader>
             <CardContent>
-              <p className="text-3xl font-bold mb-4">$2,499</p>
+              <p className="text-3xl font-bold mb-4">$50</p>
               <ul className="space-y-2">
                 <li>10-page website</li>
                 <li>Responsive design</li>

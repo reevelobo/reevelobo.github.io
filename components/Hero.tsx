@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Button, buttonVariants } from "./ui/button"
+import { Button } from "./ui/button"
 import Herobg from '../assets/Herobg.jpg'
 import  Link  from "next/link"
 
@@ -23,7 +23,7 @@ export function Hero() {
           Building amazing web experiences with modern technologies
         </p>
         <Button size="lg" className="text-lg px-8 py-3">
-          <Link href='https://github.com/reevelobo/' >View My Work</Link>
+          <Link href='https://github.com/reevelobo/'>View My Work</Link>
         </Button>
       </div>
     </section>
