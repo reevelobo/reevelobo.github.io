@@ -7,8 +7,8 @@ export function Testimonials() {
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         <Card className="p-6">
           <CardHeader>
-            <CardTitle>Prabhat Chandran</CardTitle>
-            <CardDescription>Associate Director, Kyndryl</CardDescription>
+            <CardTitle>Amith Sharma</CardTitle>
+            <CardDescription>System Engineer, TCS</CardDescription>
           </CardHeader>
           <CardContent>
             "Working with this developer was an absolute pleasure. Their expertise and dedication resulted in an
