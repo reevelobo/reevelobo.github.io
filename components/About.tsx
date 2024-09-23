@@ -1,5 +1,5 @@
 import Image from "next/image"
-import aboutme from '@/assets/about.jpeg'
+import aboutme from '../assets/about.jpeg'
 
 export function About() {
   return (
@@ -19,7 +19,7 @@ export function About() {
             <h2 className="mb-6 text-3xl font-bold sm:text-4xl text-black">About Me</h2>
             <p className="text-lg text-black">
               I'm a passionate developer with expertise in Next.js, React, and modern web technologies. With years
-              of experience in building scalable and performant web applications, I strive to create exceptional
+              of experience in building scalable and performant applications, I strive to create exceptional
               user experiences.
             </p>
             <p className="text-lg text-black">

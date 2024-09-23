@@ -7,8 +7,8 @@ export function Testimonials() {
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         <Card className="p-6">
           <CardHeader>
-            <CardTitle>John Doe</CardTitle>
-            <CardDescription>CEO, Tech Innovators</CardDescription>
+            <CardTitle>Prabhat Chandran</CardTitle>
+            <CardDescription>Associate Director, Kyndryl</CardDescription>
           </CardHeader>
           <CardContent>
             "Working with this developer was an absolute pleasure. Their expertise and dedication resulted in an
@@ -17,8 +17,8 @@ export function Testimonials() {
         </Card>
         <Card className="p-6">
           <CardHeader>
-            <CardTitle>Jane Smith</CardTitle>
-            <CardDescription>CTO, Digital Solutions</CardDescription>
+            <CardTitle>Rajesh R</CardTitle>
+            <CardDescription>Lead Software Developer, Kyndryl</CardDescription>
           </CardHeader>
           <CardContent>
             "The developer's attention to detail and problem-solving skills were impressive. They delivered a
@@ -27,8 +27,8 @@ export function Testimonials() {
         </Card>
         <Card className="p-6">
           <CardHeader>
-            <CardTitle>Alex Johnson</CardTitle>
-            <CardDescription>Founder, StartUp Success</CardDescription>
+            <CardTitle>Shan Sunny</CardTitle>
+            <CardDescription>Lead Software Developer, Kyndryl</CardDescription>
           </CardHeader>
           <CardContent>
             "I was blown away by the developer's ability to translate our vision into a functional and beautiful
