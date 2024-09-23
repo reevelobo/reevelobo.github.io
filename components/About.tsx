@@ -1,5 +1,5 @@
 import Image from "next/image"
-import aboutme from '../assets/about.jpeg'
+import aboutme from '../Assets/about.jpeg'
 
 export function About() {
   return (
