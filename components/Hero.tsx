@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { Button } from "./ui/button"
-import Herobg from '../assets/Herobg.jpg'
+import Herobg from '../Assets/Herobg.jpg'
 import  Link  from "next/link"
 
 export function Hero() {

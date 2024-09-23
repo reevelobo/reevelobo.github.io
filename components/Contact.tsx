@@ -2,7 +2,7 @@ import { Button } from "./ui/button"
 import { Input } from "./ui/input"
 import { Textarea } from "./ui/textarea"
 import Image from "next/image"
-import contact from '../assets/contact.jpg'
+import contact from '../Assets/contact.jpg'
 
 export function Contact() {
   return (
