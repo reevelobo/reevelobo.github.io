@@ -43,7 +43,7 @@ export function Header() {
       <div className="container mx-auto py-4 px-4 sm:px-6 lg:px-8">
         <nav className="flex items-center justify-between">
           <Link href="/" className="text-2xl font-bold text-foreground dark:text-white">
-            DevPortfolio
+            Reeve Lobo
           </Link>
           <div className="hidden md:flex space-x-2">
             <NavLink href="#about">About</NavLink>
