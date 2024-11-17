@@ -6,6 +6,7 @@ import { Pricing } from '@/components/Pricing'
 import { Blog } from '@/components/Blog'
 import { Contact } from '@/components/Contact'
 import { Footer } from '@/components/Footer'
+import TechWheel from '@/components/TechStack'
 
 export default function Home() {
   return (
@@ -13,8 +14,7 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        <Testimonials />
-        <Pricing />
+        <TechWheel />
         <Blog />
         <Contact />
       </main>
