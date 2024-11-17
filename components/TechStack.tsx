@@ -10,7 +10,7 @@ const TechWheel = () => {
   const [containerWidth, setContainerWidth] = useState(0);
   const [isHovering, setIsHovering] = useState(false);
   const [isLocked, setIsLocked] = useState(false);
-  const timerRef = useRef(null);
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
   
   const technologies = [
     { 
@@ -58,9 +58,9 @@ const TechWheel = () => {
       icon: Layers3,
       items: ['ServiceNow'] 
     }
-];
+  ];
 
-  const startAutoRotation = () => {
+  const startAutoRotation = React.useCallback(() => {
     if (timerRef.current) clearInterval(timerRef.current);
     timerRef.current = setInterval(() => {
       if (!isHovering && !isLocked) {
@@ -69,7 +69,7 @@ const TechWheel = () => {
         );
       }
     }, 3000);
-  };
+  }, [isHovering, isLocked, technologies.length]);
 
   useEffect(() => {
     const updateWidth = () => {
@@ -87,9 +87,9 @@ const TechWheel = () => {
       window.removeEventListener('resize', updateWidth);
       if (timerRef.current) clearInterval(timerRef.current);
     };
-  }, [isHovering, isLocked]);
+  }, [startAutoRotation]); // Added startAutoRotation to dependencies
 
-  const handleIconClick = (index) => {
+  const handleIconClick = (index: number) => {
     setActiveIndex(index);
     setIsLocked(true);
   };
