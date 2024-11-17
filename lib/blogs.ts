@@ -12,35 +12,40 @@ const blogPosts = [
       excerpt: "Dive deep into React Hooks and learn how to build more efficient and maintainable components. This comprehensive guide covers useState, useEffect, useContext, and custom hooks.",
       date: "2023-05-01",
       slug: "mastering-react-hooks",
-      image: "/placeholder.svg?height=200&width=400"
+      image: "/placeholder.svg?height=200&width=400",
+      link: ""
     },
     {
       title: "Building Scalable APIs with GraphQL",
       excerpt: "Discover how GraphQL can revolutionize your API development. Learn best practices for schema design, resolvers, and integrating GraphQL with your existing backend.",
       date: "2023-04-18",
       slug: "building-scalable-apis-with-graphql",
-      image: "/placeholder.svg?height=200&width=400"
+      image: "/placeholder.svg?height=200&width=400",
+      link: ""
     },
     {
       title: "The Power of Serverless Architecture",
       excerpt: "Explore the benefits and challenges of serverless architecture. Learn how to build, deploy, and scale applications using popular serverless platforms like AWS Lambda and Azure Functions.",
       date: "2023-04-05",
       slug: "power-of-serverless-architecture",
-      image: "/placeholder.svg?height=200&width=400"
+      image: "/placeholder.svg?height=200&width=400",
+      link: ""
     },
     {
       title: "Mastering CSS Grid Layout",
       excerpt: "Unlock the full potential of CSS Grid Layout in your web designs. This comprehensive guide covers everything from basic concepts to advanced techniques for creating complex, responsive layouts.",
       date: "2023-03-22",
       slug: "mastering-css-grid-layout",
-      image: "/placeholder.svg?height=200&width=400"
+      image: "/placeholder.svg?height=200&width=400",
+      link: ""
     },
     {
       title: "Introduction to TypeScript",
       excerpt: "Get started with TypeScript and learn how it can improve your JavaScript development experience. Covers basic types, interfaces, generics, and integration with popular frameworks.",
       date: "2023-03-10",
       slug: "introduction-to-typescript",
-      image: "/placeholder.svg?height=200&width=400"
+      image: "/placeholder.svg?height=200&width=400",
+      link: ""
     },
   ]
 
@@ -50,6 +55,7 @@ export interface BlogPost {
   date: string;
   slug: string;
   image: string;
+  link: string;
 }
 
 export const getBlogPosts = (): BlogPost[] => {
