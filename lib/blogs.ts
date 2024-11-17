@@ -2,9 +2,10 @@ const blogPosts = [
     {
       title: "The Future of Web Development",
       excerpt: "Exploring emerging trends and technologies that will shape the future of web development. From WebAssembly to AI-driven interfaces, discover what's on the horizon for developers and users alike.",
-      date: "2023-05-15",
+      date: "2024-11-17",
       slug: "future-of-web-development",
-      image: "/placeholder.svg?height=200&width=400"
+      image: "/placeholder.svg?height=200&width=400",
+      link: "https://medium.com/@reevelobo/the-future-of-web-development-d7009d2d0f78"
     },
     {
       title: "Mastering React Hooks",

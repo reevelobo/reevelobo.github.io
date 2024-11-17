@@ -5,6 +5,7 @@ import { useState, useEffect } from "react"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
+
 function NavLink({ href, children, onClick }: { href: string; children: React.ReactNode; onClick?: () => void }) {
   return (
     <Link
@@ -45,10 +46,9 @@ export function Header() {
           <Link href="/" className="text-2xl font-bold text-foreground dark:text-white">
             Reeve Lobo
           </Link>
+
           <div className="hidden md:flex space-x-2">
             <NavLink href="#about">About</NavLink>
-            <NavLink href="#testimonials">Testimonials</NavLink>
-            <NavLink href="#pricing">Pricing</NavLink>
             <NavLink href="#blog">Blog</NavLink>
             <NavLink href="#contact">Contact</NavLink>
           </div>

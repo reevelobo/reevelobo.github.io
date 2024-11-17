@@ -1,9 +1,11 @@
 'use client';
+
 import { useState } from 'react'
 import { Button } from "./ui/button"
 import { ChevronDown, ChevronUp } from 'lucide-react'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card"
 import { getBlogPosts } from '../lib/blogs'
+import Link from "next/link"
 
 export function Blog() {
   const [isExpanded, setIsExpanded] = useState(false)
@@ -24,7 +26,11 @@ export function Blog() {
               <p>{post.excerpt}</p>
             </CardContent>
             <CardFooter className="mt-auto">
-              <Button variant="outline">Read More</Button>
+              <Button size="lg" className="text-lg px-8 py-3">
+                <Link href={post.link || '#'}> {/* Fallback to '#' if link is undefined */}
+                  Read More
+                </Link>
+              </Button>
             </CardFooter>
           </Card>
         ))}
