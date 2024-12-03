@@ -1,4 +1,4 @@
-name: OWAASP ZAP DAST Security Scan
+name: OWASP ZAP DAST Security Scan
 on: [push]
 
 jobs:
