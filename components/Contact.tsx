@@ -11,9 +11,9 @@ export function Contact() {
         <h2 className="text-stone-950 mb-10 text-3xl font-bold sm:text-4xl md:ml-20">Contact Me</h2>
         <div className="flex flex-col md:flex-row justify-between items-start">
           <form className="w-full md:w-1/2 max-w-md space-y-6 md:ml-20">
-            <Input type="text" placeholder="Your Name" className="p-3" />
-            <Input type="email" placeholder="Your Email" className="p-3" />
-            <Textarea placeholder="Your Message" className="p-3" />
+            <Input type="text" placeholder="Your Name" className="p-3 text-black" />
+            <Input type="email" placeholder="Your Email" className="p-3 text-black" />
+            <Textarea placeholder="Your Message" className="p-3 text-black" />
             <Button type="submit" className="w-full p-3">
               Send Message
             </Button>
